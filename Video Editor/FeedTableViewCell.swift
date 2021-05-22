@@ -26,8 +26,8 @@ class FeedTableViewCell: UITableViewCell {
     }
     
     override func didMoveToSuperview() {
-        addPlayerView()
         addInfo()
+        addPlayerView()
     }
     
     func addPlayerView() {
