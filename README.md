@@ -9,7 +9,7 @@ What it does:
 
 The entire program was made programmatically without a storyboard.
 
-NOTE: When in the editor view, tap anywheree (except the buttons) to launch the video picker.
+NOTE: When in the editor view, tap anywhere (except the buttons) to launch the video picker.
 
 Limitations:
 - 
