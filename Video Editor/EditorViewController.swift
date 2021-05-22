@@ -150,7 +150,7 @@ class EditorViewController: UIViewController, UIImagePickerControllerDelegate, U
         let x = overlayLayer.frame.width / overlayPreviewLayer.frame.width
         let newTextLayer = textLayer!
         newTextLayer.fontSize = 18*x
-        newTextLayer.frame.origin.y = newTextLayer.frame.origin.y - newTextLayer.frame.origin.y * x - 10
+        newTextLayer.frame.origin.y = newTextLayer.frame.origin.y - newTextLayer.frame.origin.y * x + 20
         newTextLayer.frame.origin.x *= x
         newTextLayer.frame.size.width *= x
         newTextLayer.frame.size.height *= x
