@@ -54,8 +54,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID) as! FeedTableViewCell
         cell.contentView.isUserInteractionEnabled = false
         cell.url = videoURLs[indexPath.row]
-        cell.addInfo()
-        cell.addPlayerView()
         return cell
     }
 

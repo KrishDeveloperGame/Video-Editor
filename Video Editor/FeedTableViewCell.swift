@@ -25,6 +25,11 @@ class FeedTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
+    override func didMoveToSuperview() {
+        addPlayerView()
+        addInfo()
+    }
+    
     func addPlayerView() {
         self.addSubview(playerView)
         playerView.translatesAutoresizingMaskIntoConstraints = false
